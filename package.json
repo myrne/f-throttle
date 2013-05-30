@@ -1,0 +1,31 @@
+{
+  "name": "f-throttle",
+  "description": "Limit concurrency of a function returning a promise.",
+  "keywords": [],
+  "version": "0.0.0",
+  "author": "Meryn Stol <merynstol@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/meryn/f-throttle",
+  "bugs": "https://github.com/meryn/f-throttle/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meryn/f-throttle.git"
+  },
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "mocha": "1.x.x"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "main": "lib/f-throttle.js",
+  "scripts": {
+    "prepublish": "npm test",
+    "pretest": "make build",
+    "test": "make test"
+  }
+}
