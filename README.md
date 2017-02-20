@@ -1,5 +1,7 @@
 # f-throttle [![Build Status](https://travis-ci.org/meryn/f-throttle.png?branch=master)](https://travis-ci.org/meryn/f-throttle) [![Dependency Status](https://david-dm.org/meryn/f-throttle.png)](https://david-dm.org/meryn/f-throttle)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/braveg1rl/f-throttle.svg)](https://greenkeeper.io/)
+
 Limit concurrency of a function returning a promise.
 
 ## Usage
